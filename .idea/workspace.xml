@@ -10,12 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f825b1-5a1e-44a8-a1cd-80bc3bf84c77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/PredicateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b0f825b1-5a1e-44a8-a1cd-80bc3bf84c77" name="Default Changelist" comment="predicate example">
+      <change afterPath="$PROJECT_DIR$/Java8/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/src/PredicateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/PredicateDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <workItem from="1591020269150" duration="422000" />
       <workItem from="1591605692633" duration="747000" />
       <workItem from="1591606496823" duration="51000" />
-      <workItem from="1591607014575" duration="103000" />
+      <workItem from="1591607014575" duration="433000" />
     </task>
     <servers />
   </component>
@@ -73,6 +70,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="predicate example" />
+    <option name="LAST_COMMIT_MESSAGE" value="predicate example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591606527764">
