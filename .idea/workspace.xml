@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f825b1-5a1e-44a8-a1cd-80bc3bf84c77" name="Default Changelist" comment="" />
+    <list default="true" id="b0f825b1-5a1e-44a8-a1cd-80bc3bf84c77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/PredicateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bFhU2UFLUlMghOegiQmplHvdBJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,8 +34,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
@@ -32,20 +53,43 @@
       <workItem from="1588233764722" duration="1805000" />
       <workItem from="1591020207802" duration="38000" />
       <workItem from="1591020269150" duration="422000" />
+      <workItem from="1591605692633" duration="747000" />
+      <workItem from="1591606496823" duration="51000" />
+      <workItem from="1591607014575" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="95" key="FileChooserDialogImpl" timestamp="1591020671895">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591606527764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="420" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591020671895" />
-    <state x="90" y="0" key="new project wizard" timestamp="1591020690244">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1591606527764" />
+    <state x="271" y="29" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591605775941">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="90" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1591020690244" />
+    <state x="271" y="29" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1591605775941" />
+    <state x="420" y="95" key="FileChooserDialogImpl" timestamp="1591606545904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591606545904" />
+    <state x="90" y="0" key="new project wizard" timestamp="1591606161234">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="90" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1591606161234" />
   </component>
 </project>
