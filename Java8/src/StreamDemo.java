@@ -16,6 +16,19 @@ public class StreamDemo {
         list.add("e");
 
         Stream<String> streamOfStrings = list.stream();
-        streamOfStrings.forEach(p -> System.out.println(p));
+        streamOfStrings.map(p -> p.toUpperCase()).forEach(p -> System.out.println(p));
+
+        List<Person> persons = new ArrayList<>();
+        persons.add(new Person("Dave", 23));
+        persons.add(new Person("Joe", 19));
+        persons.add(new Person("Ryan", 54));
+        persons.add(new Person("Iyan", 5));
+        persons.add(new Person("Ray", 63));
+
+        persons.stream().filter(person -> person.name != null)
+                .filter(person -> person.age > 18)
+                .filter(person -> person.age < 60)
+                .forEach(System.out::println);
+
     }
 }
