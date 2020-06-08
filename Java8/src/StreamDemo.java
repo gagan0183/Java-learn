@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -30,5 +31,13 @@ public class StreamDemo {
                 .filter(person -> person.age < 60)
                 .forEach(System.out::println);
 
+        List<List<String>> listOfList = new ArrayList<>();
+        listOfList.add(Arrays.asList("a", "b", "c"));
+        listOfList.add(Arrays.asList("d", "e", "f"));
+        listOfList.add(Arrays.asList("g", "h", "i"));
+        listOfList.stream()
+                .flatMap(s -> s.stream())
+                .filter(x -> x.toString().equals("a"))
+                .forEach(System.out::println);
     }
 }
