@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f825b1-5a1e-44a8-a1cd-80bc3bf84c77" name="Default Changelist" comment="predicate example">
-      <change afterPath="$PROJECT_DIR$/Java8/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/PredicateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/PredicateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <workItem from="1591020269150" duration="422000" />
       <workItem from="1591605692633" duration="747000" />
       <workItem from="1591606496823" duration="51000" />
-      <workItem from="1591607014575" duration="433000" />
+      <workItem from="1591607014575" duration="781000" />
     </task>
     <servers />
   </component>
@@ -92,5 +91,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="90" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1591606161234" />
+    <state x="303" y="1" key="search.everywhere.popup" timestamp="1591612207767">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591612207767" />
   </component>
 </project>
