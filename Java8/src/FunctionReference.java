@@ -1,4 +1,6 @@
 import java.io.PrintStream;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -16,5 +18,10 @@ public class FunctionReference {
         //static method reference
         Supplier<Thread> staticMethodReference = Thread::currentThread;
         System.out.println("Static method reference " + staticMethodReference.get());
+
+        //constructor method reference
+        Supplier<Calendar> construc = GregorianCalendar::new;
+        Calendar c = construc.get();
+        System.out.println("Calendar method reference " + c.toString());
     }
 }
