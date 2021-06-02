@@ -1,9 +1,14 @@
 public class LambdaDemo {
     public static void main(String[] args) {
-        Runnable fn = () -> {
-            String name = "Gagan";
+        StringRunnable fn = (name) -> {
+//            String name = "Gagan";
             System.out.println("Hi " + name);
         };
-        fn.run();
+        fn.run("Gagan");
+    }
+
+    @FunctionalInterface
+    public interface StringRunnable {
+        public abstract void run(String name);
     }
 }
