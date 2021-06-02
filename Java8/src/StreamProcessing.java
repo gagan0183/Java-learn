@@ -1,11 +1,18 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class StreamProcessing {
     public static void main(String[] args) {
         List<Student> students = getStudents();
-        System.out.println(students);
+        Set<String> topStudents = students.stream()
+                .filter(result -> result.roundedPercentage > 91)
+                .map(Student::getName)
+                .collect(Collectors.toSet());
+        System.out.println("Top students are: ");
+        topStudents.forEach(System.out::println);
     }
 
     private static List<Student> getStudents() {
@@ -22,6 +29,10 @@ public class StreamProcessing {
         int roundedPercentage;
         String name;
         Exam exam;
+
+        public String getName() {
+            return name;
+        }
 
         public Student(int roundedPercentage, String name, Exam exam) {
             this.roundedPercentage = roundedPercentage;
