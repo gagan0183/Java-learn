@@ -7,10 +7,11 @@ import java.util.stream.Collectors;
 public class StreamProcessing {
     public static void main(String[] args) {
         List<Student> students = getStudents();
-        Set<String> topStudents = students.stream()
+        List<String> topStudents = students.stream()
                 .filter(result -> result.roundedPercentage > 91)
                 .map(Student::getName)
-                .collect(Collectors.toSet());
+                .sorted()
+                .collect(Collectors.toList());
         System.out.println("Top students are: ");
         topStudents.forEach(System.out::println);
     }
